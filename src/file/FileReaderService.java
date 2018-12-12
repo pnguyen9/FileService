@@ -9,7 +9,7 @@ import java.util.List;
 /**
  * A service which can be used to read the content of a file.
  * 
- * @author ASUS
+ * @author Pascal Nguyen
  *
  */
 public class FileReaderService {
