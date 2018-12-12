@@ -7,6 +7,13 @@ import java.util.Map;
 
 import file.FileReaderService;
 
+/**
+ * A service which can be used to read and parse the content of a spreadsheet,
+ * given a splitter to identify the columns.
+ * 
+ * @author Pascal Nguyen
+ *
+ */
 public class SpreadsheetReaderService {
 
 	private static SpreadsheetReaderService spreadsheetReaderService;
@@ -143,6 +150,8 @@ public class SpreadsheetReaderService {
 	 * {@link #loadSpreadsheet(String, SpreadsheetSplitter)} before calling this
 	 * method.
 	 * 
+	 * @param columnName
+	 *            The name of the column for which to get the index
 	 * @return See description
 	 */
 	public int getIndexForColumnName(String columnName) {

@@ -6,6 +6,12 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * A service which can be used to read the content of a file.
+ * 
+ * @author ASUS
+ *
+ */
 public class FileReaderService {
 
 	private static FileReaderService fileReaderService = null;

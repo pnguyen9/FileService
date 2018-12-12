@@ -8,6 +8,12 @@ import java.nio.file.Paths;
 import java.util.Arrays;
 import java.util.List;
 
+/**
+ * A service which can be used to write a content into a file.
+ * 
+ * @author Pascal Nguyen
+ *
+ */
 public class FileWriterService {
 
 	private static FileWriterService fileWriterService;
